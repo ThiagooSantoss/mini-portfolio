@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+
+<head>
+    <title> Mini-Portifólio</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Thiago">
+    <meta name="description" content="lista de documentos">
+    <meta name="keywords" content="html5, tecnologia">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./estilos.css">
+
+</head>
+
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./images/fotominha.jpg" alt="foto de perfil">
+            <h1 class="nome">Thiago Pereira dos Santos</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Junior</h2>
+
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./images/sobre.gif" alt="icone de sobre mim">
+                </li>
+
+                <li class="aba" id="minhas-redes">
+                    <img src="./images/coracao.gif" alt="icone de redes sociais">
+                </li>
+
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Oi! meu nome é Thiago Pereira dos Santos, seja bem-vindo(a)!</p>
+
+                        <p>Sou uma pessoa apaixonada pela programação desde que eu tinha 15 anos. Sempre tive o sonho de
+                            trabalhar com programação e atualmente comecei a colocar esse sonho em prática estudando
+                            <span>HTML, CSS e JavaScript.</span> Gosto muito de café (até demais), e meus principais
+                            hobbies são jogar FIFA, GTA5 e ver séries.</p>
+                    </div>
+                </div>
+
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="#" target="_blank" class="curriculo">Curriculo</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/thiago-santos-ab4915122" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ThiagooSantoss/TPSantos" target="_blank" class="github">Github</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
